@@ -271,7 +271,7 @@ div[id*=label] {
 	top: -10px;
 	left: 50%;
 	margin-left: -5px;
-	background: url(../../images/help.box.pnt.gif) left top no-repeat;
+	background: url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/help.box.pnt.gif) left top no-repeat;
 }
 
 .options-block > div .help-block p {
@@ -368,7 +368,7 @@ div[id*=label] {
 	font-size: 12px;
 	font-weight: 400;
 	color: #fff;
-	background: #0c898a url(../../images/view.style.png) calc(100% - 6px) center no-repeat;
+	background: #0c898a url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/view.style.png) calc(100% - 6px) center no-repeat;
 	line-height: 25px;
 	border-radius: 10px;
 }
@@ -415,7 +415,7 @@ div[id*=label] {
 .free_version_banner {
 	position:relative;
 	display:block;
-	background: url('../../images/wp_banner_bg.jpg') repeat top left;
+	background: url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/wp_banner_bg.jpg') repeat top left;
 	overflow:hidden;
 }
 
@@ -502,7 +502,7 @@ div[id*=label] {
 	height:23px;
 	left:25px;
 	top:9px;
-	background: url('../../images/wp_shop.png') 0 0;
+	background: url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/wp_shop.png') 0 0;
 }
 
 .free_version_banner .get_full_version:hover:before {
@@ -553,7 +553,7 @@ div[id*=label] {
 	margin: 3px 3px;
 	width: 30px;
 	height: 30px;
-	background:url('../../images/f.png') no-repeat;
+	background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/f.png') no-repeat;
 }
 
 .free_version_banner .hg_social_link_buttons a:after {

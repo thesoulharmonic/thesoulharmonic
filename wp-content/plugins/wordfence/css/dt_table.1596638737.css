@@ -17,19 +17,19 @@ table.display thead th div.DataTables_sort_wrapper span{position:absolute;top:50
 .dataTables_filter input {border:1px;border-color:#b8b8b8 #e2e2e2 #e2e2e2 #b8b8b8;border-style:solid;padding:2px}
 .paginate_disabled_previous,.paginate_enabled_previous,.paginate_disabled_next,.paginate_enabled_next{height:19px;width:19px;margin-left:3px;float:left}
 .paginate_enabled_previous,.paginate_enabled_next{cursor:pointer}
-.paginate_disabled_previous{background-image:url(../images/back_disabled.jpg)}
-.paginate_enabled_previous{background-image:url(../images/back_enabled.jpg)}
-.paginate_disabled_next{background-image:url(../images/forward_disabled.jpg)}
-.paginate_enabled_next{background-image:url(../images/forward_enabled.jpg)}
+.paginate_disabled_previous{background-image:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/back_disabled.jpg)}
+.paginate_enabled_previous{background-image:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/back_enabled.jpg)}
+.paginate_disabled_next{background-image:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/forward_disabled.jpg)}
+.paginate_enabled_next{background-image:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/forward_enabled.jpg)}
 table.display{max-width:800px;clear:both;border-collapse:collapse;margin:0 0 24px;background:#fff;position:relative;top:12px}
 table.display tfoot th{font-weight:400;padding:3px 8px 3px 8px}
 table.display tr.heading2 td{border-bottom:1px solid #aaa}
 table.display td{padding:5px 8px;border:1px solid #ccc}
-.sorting_asc div.th_wrapp{background:url(../images/sort_asc.gif) no-repeat right center}
-.sorting_desc div.th_wrapp{background:url(../images/sort_desc.gif) no-repeat right center}
-.sorting_asc_disabled div.th_wrapp{background: url('../images/sort_asc_disabled.gif') no-repeat center right}
-.sorting_desc_disabled div.th_wrapp{background: url('../images/sort_desc_disabled.gif') no-repeat center right}
-.sorting div.th_wrapp{background:url(../images/sort_both.gif) no-repeat right center}
+.sorting_asc div.th_wrapp{background:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/sort_asc.gif) no-repeat right center}
+.sorting_desc div.th_wrapp{background:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/sort_desc.gif) no-repeat right center}
+.sorting_asc_disabled div.th_wrapp{background: url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/sort_asc_disabled.gif') no-repeat center right}
+.sorting_desc_disabled div.th_wrapp{background: url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/sort_desc_disabled.gif') no-repeat center right}
+.sorting div.th_wrapp{background:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordfence/images/sort_both.gif) no-repeat right center}
 tr.odd{background-color:#f5f5f5}
 tr.even{background-color:#fff}
 .top,.bottom{background-color:#F5F5F5;border:1px solid #CCC;padding:15px}

@@ -108,61 +108,61 @@ a#rwd-share-buffer.view7:hover{background:#090909}
 a#rwd-share-digg.view7:hover{background:#466ca3}
 a#rwd-share-vk.view7:hover{background:#4d76a1}
 a#rwd-share-yummly.view7:hover{background:#e26326}
-a#rwd-share-facebook:not(.view7){background:url('../../images/share(1).png');background-position: 0 0}
-a#rwd-share-facebook:not(.view7):hover{background:url('../../images/share(1).png');background-position: 0 -30px}
-a#rwd-share-twitter:not(.view7){background:url('../../images/share(1).png');background-position: -31px 0}
-a#rwd-share-twitter:not(.view7):hover{background:url('../../images/share(1).png');background-position: -31px -30px}
-a#rwd-share-googleplus:not(.view7){background:url('../../images/share(1).png');background-position: -66px 0}
-a#rwd-share-googleplus:not(.view7):hover{background:url('../../images/share(1).png');background-position: -66px -30px}
-a#rwd-share-pinterest:not(.view7){background:url('../../images/share(1).png');background-position: -100px 0}
-a#rwd-share-pinterest:not(.view7):hover{background:url('../../images/share(1).png');background-position: -100px -30px}
-a#rwd-share-linkedin:not(.view7){background:url('../../images/share(1).png');background-position: -134px 0}
-a#rwd-share-linkedin:not(.view7):hover{background:url('../../images/share(1).png');background-position: -134px -30px}
-a#rwd-share-tumblr:not(.view7){background:url('../../images/share(1).png');background-position: -169px 0}
-a#rwd-share-tumblr:not(.view7):hover{background:url('../../images/share(1).png');background-position: -169px -30px}
-a#rwd-share-reddit:not(.view7){background:url('../../images/share(1).png');background-position: -204px 0}
-a#rwd-share-reddit:not(.view7):hover{background:url('../../images/share(1).png');background-position: -204px -30px}
-a#rwd-share-buffer:not(.view7){background:url('../../images/share(1).png');background-position: -239px 0}
-a#rwd-share-buffer:not(.view7):hover{background:url('../../images/share(1).png');background-position: -239px -30px}
-a#rwd-share-digg:not(.view7){background:url('../../images/share(1).png');background-position: -273px 0}
-a#rwd-share-digg:not(.view7):hover{background:url('../../images/share(1).png');background-position: -273px -30px}
-a#rwd-share-vk:not(.view7){background:url('../../images/share(1).png');background-position: -308px 0}
-a#rwd-share-vk:not(.view7):hover{background:url('../../images/share(1).png');background-position: -308px -30px}
-a#rwd-share-yummly:not(.view7){background:url('../../images/share(1).png');background-position: -344px 0}
-a#rwd-share-yummly:not(.view7):hover{background:url('../../images/share(1).png');background-position: -344px -30px}
-.rwd-view3 a#rwd-share-facebook, .rwd-view6 a#rwd-share-facebook{background:url('../../images/share0.png');background-position: 0 0}
-.rwd-view3 a#rwd-share-facebook:hover, .rwd-view6 a#rwd-share-facebook:hover{background:url('../../images/share0.png');background-position: 0 -30px}
-.rwd-view3 a#rwd-share-twitter, .rwd-view6 a#rwd-share-twitter{background:url('../../images/share0.png');background-position: -31px 0}
-.rwd-view3 a#rwd-share-twitter:hover, .rwd-view6 a#rwd-share-twitter:hover{background:url('../../images/share0.png');background-position: -31px -30px}
-.rwd-view3 a#rwd-share-googleplus, .rwd-view6 a#rwd-share-googleplus{background:url('../../images/share0.png');background-position: -66px 0}
-.rwd-view3 a#rwd-share-googleplus:hover, .rwd-view6 a#rwd-share-googleplus:hover{background:url('../../images/share0.png');background-position: -66px -30px}
-.rwd-view3 a#rwd-share-pinterest, .rwd-view6 a#rwd-share-pinterest{background:url('../../images/share0.png');background-position: -100px 0}
-.rwd-view3 a#rwd-share-pinterest:hover, .rwd-view6 a#rwd-share-pinterest:hover{background:url('../../images/share0.png');background-position: -100px -30px}
-.rwd-view3 a#rwd-share-linkedin, .rwd-view6 a#rwd-share-linkedin{background:url('../../images/share0.png');background-position: -134px 0}
-.rwd-view3 a#rwd-share-linkedin:hover, .rwd-view6 a#rwd-share-linkedin:hover{background:url('../../images/share0.png');background-position: -134px -30px}
-.rwd-view3 a#rwd-share-tumblr, .rwd-view6 a#rwd-share-tumblr{background:url('../../images/share0.png');background-position: -169px 0}
-.rwd-view3 a#rwd-share-tumblr:hover, .rwd-view6 a#rwd-share-tumblr:hover{background:url('../../images/share0.png');background-position: -169px -30px}
-.rwd-view3 a#rwd-share-reddit, .rwd-view6 a#rwd-share-reddit{background:url('../../images/share0.png');background-position: -204px 0}
-.rwd-view3 a#rwd-share-reddit:hover, .rwd-view6 a#rwd-share-reddit:hover{background:url('../../images/share0.png');background-position: -204px -30px}
-.rwd-view3 a#rwd-share-buffer, .rwd-view6 a#rwd-share-buffer{background:url('../../images/share0.png');background-position: -239px 0}
-.rwd-view3 a#rwd-share-buffer:hover, .rwd-view6 a#rwd-share-buffer:hover{background:url('../../images/share0.png');background-position: -239px -30px}
-.rwd-view3 a#rwd-share-digg, .rwd-view6 a#rwd-share-digg{background:url('../../images/share0.png');background-position: -273px 0}
-.rwd-view3 a#rwd-share-digg:hover, .rwd-view6 a#rwd-share-digg:hover{background:url('../../images/share0.png');background-position: -273px -30px}
-.rwd-view3 a#rwd-share-vk, .rwd-view6 a#rwd-share-vk{background:url('../../images/share0.png');background-position: -308px 0}
-.rwd-view3 a#rwd-share-vk:hover, .rwd-view6 a#rwd-share-vk:hover{background:url('../../images/share0.png');background-position: -308px -30px}
-.rwd-view3 a#rwd-share-yummly, .rwd-view6 a#rwd-share-yummly{background:url('../../images/share0.png');background-position: -344px 0}
-.rwd-view3 a#rwd-share-yummly:hover, .rwd-view6 a#rwd-share-yummly:hover{background:url('../../images/share0.png');background-position: -344px -30px}
-.rwd-view5 a#rwd-share-facebook{background:url('../../images/share1.png');background-position: 0 0}
-.rwd-view5 a#rwd-share-twitter{background:url('../../images/share1.png');background-position: -35px 0}
-.rwd-view5 a#rwd-share-googleplus{background:url('../../images/share1.png');background-position: -68px 0}
-.rwd-view5 a#rwd-share-pinterest{background:url('../../images/share1.png');background-position: -100px 0}
-.rwd-view5 a#rwd-share-linkedin{background:url('../../images/share1.png');background-position: -133px 0}
-.rwd-view5 a#rwd-share-tumblr{background:url('../../images/share1.png');background-position: -165px 0}
-.rwd-view5 a#rwd-share-reddit{background:url('../../images/share1.png');background-position: -197px 0}
-.rwd-view5 a#rwd-share-buffer{background:url('../../images/share1.png');background-position: -231px 0}
-.rwd-view5 a#rwd-share-digg{background:url('../../images/share1.png');background-position: -263px 0}
-.rwd-view5 a#rwd-share-vk{background:url('../../images/share1.png');background-position: -294px 0}
-.rwd-view5 a#rwd-share-yummly{background:url('../../images/share1.png');background-position: -329px 0}
+a#rwd-share-facebook:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: 0 0}
+a#rwd-share-facebook:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: 0 -30px}
+a#rwd-share-twitter:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -31px 0}
+a#rwd-share-twitter:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -31px -30px}
+a#rwd-share-googleplus:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -66px 0}
+a#rwd-share-googleplus:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -66px -30px}
+a#rwd-share-pinterest:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -100px 0}
+a#rwd-share-pinterest:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -100px -30px}
+a#rwd-share-linkedin:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -134px 0}
+a#rwd-share-linkedin:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -134px -30px}
+a#rwd-share-tumblr:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -169px 0}
+a#rwd-share-tumblr:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -169px -30px}
+a#rwd-share-reddit:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -204px 0}
+a#rwd-share-reddit:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -204px -30px}
+a#rwd-share-buffer:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -239px 0}
+a#rwd-share-buffer:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -239px -30px}
+a#rwd-share-digg:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -273px 0}
+a#rwd-share-digg:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -273px -30px}
+a#rwd-share-vk:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -308px 0}
+a#rwd-share-vk:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -308px -30px}
+a#rwd-share-yummly:not(.view7){background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -344px 0}
+a#rwd-share-yummly:not(.view7):hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share(1).png');background-position: -344px -30px}
+.rwd-view3 a#rwd-share-facebook, .rwd-view6 a#rwd-share-facebook{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: 0 0}
+.rwd-view3 a#rwd-share-facebook:hover, .rwd-view6 a#rwd-share-facebook:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: 0 -30px}
+.rwd-view3 a#rwd-share-twitter, .rwd-view6 a#rwd-share-twitter{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -31px 0}
+.rwd-view3 a#rwd-share-twitter:hover, .rwd-view6 a#rwd-share-twitter:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -31px -30px}
+.rwd-view3 a#rwd-share-googleplus, .rwd-view6 a#rwd-share-googleplus{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -66px 0}
+.rwd-view3 a#rwd-share-googleplus:hover, .rwd-view6 a#rwd-share-googleplus:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -66px -30px}
+.rwd-view3 a#rwd-share-pinterest, .rwd-view6 a#rwd-share-pinterest{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -100px 0}
+.rwd-view3 a#rwd-share-pinterest:hover, .rwd-view6 a#rwd-share-pinterest:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -100px -30px}
+.rwd-view3 a#rwd-share-linkedin, .rwd-view6 a#rwd-share-linkedin{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -134px 0}
+.rwd-view3 a#rwd-share-linkedin:hover, .rwd-view6 a#rwd-share-linkedin:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -134px -30px}
+.rwd-view3 a#rwd-share-tumblr, .rwd-view6 a#rwd-share-tumblr{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -169px 0}
+.rwd-view3 a#rwd-share-tumblr:hover, .rwd-view6 a#rwd-share-tumblr:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -169px -30px}
+.rwd-view3 a#rwd-share-reddit, .rwd-view6 a#rwd-share-reddit{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -204px 0}
+.rwd-view3 a#rwd-share-reddit:hover, .rwd-view6 a#rwd-share-reddit:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -204px -30px}
+.rwd-view3 a#rwd-share-buffer, .rwd-view6 a#rwd-share-buffer{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -239px 0}
+.rwd-view3 a#rwd-share-buffer:hover, .rwd-view6 a#rwd-share-buffer:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -239px -30px}
+.rwd-view3 a#rwd-share-digg, .rwd-view6 a#rwd-share-digg{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -273px 0}
+.rwd-view3 a#rwd-share-digg:hover, .rwd-view6 a#rwd-share-digg:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -273px -30px}
+.rwd-view3 a#rwd-share-vk, .rwd-view6 a#rwd-share-vk{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -308px 0}
+.rwd-view3 a#rwd-share-vk:hover, .rwd-view6 a#rwd-share-vk:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -308px -30px}
+.rwd-view3 a#rwd-share-yummly, .rwd-view6 a#rwd-share-yummly{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -344px 0}
+.rwd-view3 a#rwd-share-yummly:hover, .rwd-view6 a#rwd-share-yummly:hover{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share0.png');background-position: -344px -30px}
+.rwd-view5 a#rwd-share-facebook{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: 0 0}
+.rwd-view5 a#rwd-share-twitter{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -35px 0}
+.rwd-view5 a#rwd-share-googleplus{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -68px 0}
+.rwd-view5 a#rwd-share-pinterest{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -100px 0}
+.rwd-view5 a#rwd-share-linkedin{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -133px 0}
+.rwd-view5 a#rwd-share-tumblr{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -165px 0}
+.rwd-view5 a#rwd-share-reddit{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -197px 0}
+.rwd-view5 a#rwd-share-buffer{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -231px 0}
+.rwd-view5 a#rwd-share-digg{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -263px 0}
+.rwd-view5 a#rwd-share-vk{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -294px 0}
+.rwd-view5 a#rwd-share-yummly{background:url('/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/share1.png');background-position: -329px 0}
 #rwd-counter{color:#999;display:inline-block;font-size:16px;padding-top:12px;vertical-align:middle}
 .rwd-bar #rwd-counter{position:absolute;bottom:11px;left:50%;transform:translateX(-50%);z-index:1090}
 .rwd-view4 .rwd-bar #rwd-counter{left:70px}
@@ -173,10 +173,10 @@ a#rwd-share-yummly:not(.view7):hover{background:url('../../images/share(1).png')
 .rwd-cont .rwd-video{width:100%;height:0;padding-bottom:56.25%;overflow:hidden;position:relative}
 .rwd-cont .rwd-video .rwd-object{display:inline-block;position:absolute;top:0;left:0;width:100%!important;height:100%!important}
 .rwd-cont .rwd-video .rwd-video-play{width:84px;height:59px;position:absolute;left:50%;top:50%;margin-left:-42px;margin-top:-30px;z-index:1080;cursor:pointer}
-.rwd-cont .rwd-has-vimeo .rwd-video-play{background:url(../../images/vimeo-play.png) no-repeat}
-.rwd-cont .rwd-has-vimeo:hover .rwd-video-play{background:url(../../images/vimeo-play.png) 0 -58px no-repeat}
-.rwd-cont .rwd-has-youtube .rwd-video-play{background:url(../../images/youtube-play.png) no-repeat}
-.rwd-cont .rwd-has-youtube:hover .rwd-video-play{background:url(../../images/youtube-play.png) 0 -60px no-repeat}
+.rwd-cont .rwd-has-vimeo .rwd-video-play{background:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/vimeo-play.png) no-repeat}
+.rwd-cont .rwd-has-vimeo:hover .rwd-video-play{background:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/vimeo-play.png) 0 -58px no-repeat}
+.rwd-cont .rwd-has-youtube .rwd-video-play{background:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/youtube-play.png) no-repeat}
+.rwd-cont .rwd-has-youtube:hover .rwd-video-play{background:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/youtube-play.png) 0 -60px no-repeat}
 .rwd-cont .rwd-video-object{width:100%!important;height:100%!important;position:absolute;top:0;left:0}
 .rwd-cont .rwd-has-video .rwd-video-object{visibility:hidden}
 .rwd-cont .rwd-has-video.rwd-video-playing .rwd-object,.rwd-cont .rwd-has-video.rwd-video-playing .rwd-video-play{display:none}
@@ -211,7 +211,7 @@ a#rwd-share-yummly:not(.view7):hover{background:url('../../images/share(1).png')
     .rwd-view5 .rwd-share-buttons, .rwd-view6 .rwd-share-buttons{top:65px;left:10px}
     .rwd-description{display:none}
 }
-.rwd-cont .rwd-item{background:url(../../images/loading-resp.gif) center center no-repeat;display:none!important}
+.rwd-cont .rwd-item{background:url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/lightbox-master/images/loading-resp.gif) center center no-repeat;display:none!important}
 .rwd-cont.rwd-noSupport .rwd-current,.rwd-cont.rwd-support .rwd-current,.rwd-cont.rwd-support .rwd-next-slide,.rwd-cont.rwd-support .rwd-prev-slide{display:inline-block!important}
 .rwd-cont .rwd-img-wrap,.rwd-cont .rwd-item{display:inline-block;text-align:center;position:absolute;width:100%;height:100%}
 .rwd-cont .rwd-img-wrap{position:absolute;padding:0 5px;left:0;right:0;top:0;bottom:0}

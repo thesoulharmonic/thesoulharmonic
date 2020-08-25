@@ -1,7 +1,7 @@
-@import url(../src/icons.css);
-@import "../../node_modules/draft-js-mention-plugin/lib/plugin.css";
+@import url(/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordpress-seo/css/src/icons.css);
+@import "/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordpress-seo/node_modules/draft-js-mention-plugin/lib/plugin.css";
 /*!rtl:begin:ignore*/
-@import "../../node_modules/draft-js/dist/Draft.css";
+@import "/https://thesoulharmonic.github.io/thesoulharmonic/wp-content/plugins/wordpress-seo/node_modules/draft-js/dist/Draft.css";
 /*!rtl:end:ignore*/
 
 #wpseo_meta {
