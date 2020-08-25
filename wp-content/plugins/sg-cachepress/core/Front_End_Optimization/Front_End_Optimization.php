@@ -328,8 +328,16 @@ class Front_End_Optimization {
 	 * @return string $src The modified src if there are query strings, the initial src otherwise.
 	 */
 	public static function remove_query_strings( $src ) {
+		// Get the host.
+		$host = parse_url( $src, PHP_URL_HOST );
+
+		// Bail if the host is empty.
+		if ( empty( $host ) ) {
+			return $src;
+		}
+
 		// Skip all external sources.
-		if ( @strpos( Helper::get_home_url(), parse_url( $src, PHP_URL_HOST ) ) === false ) {
+		if ( @strpos( Helper::get_home_url(), $host ) === false ) {
 			return $src;
 		}
 
@@ -567,7 +575,6 @@ class Front_End_Optimization {
 			return;
 		}
 
-		Supercacher::delete_assets();
 		Supercacher::purge_cache();
 		Supercacher::flush_memcache();
 

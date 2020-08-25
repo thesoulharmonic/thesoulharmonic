@@ -16,6 +16,7 @@ class Js_Combinator extends Abstract_Combinator {
 	 * @var array Array containing all excluded inline content.
 	 */
 	private $excluded_inline_content = array(
+		'map.write("map_id',
 		'wpfh-print-action',
 		'tdbMenuItem',
 		'avadaFusionSliderVars',

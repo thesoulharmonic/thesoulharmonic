@@ -50,6 +50,21 @@ if ( ! function_exists( 'et_epanel_admin_js' ) ) {
 }
 /* --------------------------------------------- */
 
+/* Enabling CSSlint for codemirror */
+if ( ! function_exists( 'et_epanel_enable_css_lint' ) ) {
+	function et_epanel_enable_css_lint( $settings ){
+		$modes = array( 'text/css', 'css', 'text/x-scss', 'text/x-less', 'text/x-sass' );
+		
+		if ( in_array( $settings['codemirror']['mode'], $modes, true ) ) {
+			$settings['codemirror']['lint'] = true;
+			$settings['codemirror']['gutters'] = array( 'CodeMirror-lint-markers' );
+		}
+
+		return $settings;
+	}
+	add_filter( 'wp_code_editor_settings', 'et_epanel_enable_css_lint' );
+}
+
 /* Adds additional ePanel css */
 if ( ! function_exists( 'et_epanel_css_admin' ) ) {
 
@@ -136,7 +151,7 @@ function et_add_epanel() {
 		}
 	}
 
-	$core_page = add_theme_page( $themename . ' ' . esc_html__( 'Options', $themename ), $themename . ' ' . esc_html__( 'Theme Options', $themename ), 'switch_themes', basename( __FILE__ ), 'et_build_epanel' );
+	$core_page = add_theme_page( $themename . ' ' . esc_html__( 'Options', $themename ), $themename . ' ' . esc_html__( 'Theme Options', $themename ), 'edit_theme_options', basename( __FILE__ ), 'et_build_epanel' );
 
 	add_action( "admin_print_scripts-{$core_page}", 'et_epanel_admin_js' );
 	add_action( "admin_head-{$core_page}", 'et_epanel_css_admin' );
@@ -235,7 +250,20 @@ if ( ! function_exists( 'et_build_epanel' ) ) {
 								<div id="epanel-header">
 									<h1 id="epanel-title"><?php printf( esc_html__( '%s Theme Options', $themename ), esc_html( $themename ) ); ?></h1>
 									<a href="#" class="et-defaults-button epanel-reset" title="<?php esc_attr_e( 'Reset to Defaults', $themename ); ?>"><span class="label"><?php esc_html_e( 'Reset to Defaults', $themename ); ?></span></a>
-									<?php echo et_core_esc_previously( et_core_portability_link( 'epanel', array( 'class' => 'et-defaults-button epanel-portability' ) ) ); ?>
+									<?php
+									$portability_link = function_exists( 'et_builder_portability_link' )
+										? 'et_builder_portability_link'
+										: 'et_core_portability_link';
+
+									echo et_core_esc_previously(
+										// @phpcs:ignore Generic.PHP.ForbiddenFunctions.Found
+										call_user_func(
+											$portability_link,
+											'epanel',
+											array( 'class' => 'et-defaults-button epanel-portability' )
+										)
+									);
+									?>
 								</div>
 								<ul id="epanel-mainmenu">
 									<?php
@@ -259,6 +287,7 @@ if ( ! function_exists( 'et_build_epanel' ) ) {
 
 									if ( ! empty( $value[ 'depends_on' ] ) ) {
 										// function defined in 'depends on' key returns false, if a setting shouldn't be displayed
+										// @phpcs:ignore Generic.PHP.ForbiddenFunctions.Found
 										if ( ! call_user_func( $value[ 'depends_on' ] ) ) {
 											continue;
 										}
@@ -460,6 +489,7 @@ if ( ! function_exists( 'et_build_epanel' ) ) {
 
 													<?php } elseif ( 'callback_function' === $value['type'] ) {
 
+														// @phpcs:ignore Generic.PHP.ForbiddenFunctions.Found
 														call_user_func( $value['function_name'] ); ?>
 
 													<?php } elseif ( 'et_color_palette' === $value['type'] ) {
@@ -571,6 +601,7 @@ if ( ! function_exists( 'et_build_epanel' ) ) {
 														$stored_values = et_get_option( $value['id'], array() );
 														$value_options = $value['options'];
 														if ( is_callable( $value_options ) ) {
+															// @phpcs:ignore Generic.PHP.ForbiddenFunctions.Found
 															$value_options = call_user_func( $value_options );
 														}
 
@@ -728,7 +759,7 @@ if ( ! function_exists( 'epanel_save_data' ) ) {
 
 		et_core_nonce_verified_previously();
 
-		if ( ! current_user_can( 'switch_themes' ) ) {
+		if ( ! current_user_can( 'edit_theme_options' ) ) {
 			die('-1');
 		}
 
@@ -754,6 +785,14 @@ if ( ! function_exists( 'epanel_save_data' ) ) {
 
 				if ( ! $updates_options = get_site_option( 'et_automatic_updates_options' ) ) {
 					$updates_options = get_option( 'et_automatic_updates_options', array() );
+				}
+
+				// Network Admins can edit options like Super Admins but content will be filtered
+				// (eg `>` in custom CSS would be encoded to `&gt;`) so we have to disable kses filtering
+				// while saving epanel options.
+				$skip_kses = ! current_user_can( 'unfiltered_html' );
+				if ( $skip_kses ) {
+					kses_remove_filters();
 				}
 
 				foreach ( $options as $value ) {
@@ -847,7 +886,7 @@ if ( ! function_exists( 'epanel_save_data' ) ) {
 										}
 									}
 								} else {
-									if ( current_user_can( 'switch_themes' ) ) {
+									if ( current_user_can( 'edit_theme_options' ) ) {
 										$et_option_new_value = stripslashes( $_POST[ $value['id'] ] );
 									} else {
 										$et_option_new_value = stripslashes( wp_filter_post_kses( addslashes( $_POST[ $value['id'] ] ) ) ); // wp_filter_post_kses() expects slashed value
@@ -875,6 +914,7 @@ if ( ! function_exists( 'epanel_save_data' ) ) {
 								$checkbox_options    = $value['options'];
 
 								if ( is_callable( $checkbox_options ) ) {
+									// @phpcs:ignore Generic.PHP.ForbiddenFunctions.Found
 									$checkbox_options = call_user_func( $checkbox_options );
 								}
 
@@ -927,6 +967,11 @@ if ( ! function_exists( 'epanel_save_data' ) ) {
 							}
 						}
 					}
+				}
+
+				if ( $skip_kses ) {
+					// Enable kses filters again
+					kses_init_filters();
 				}
 
 				$redirect_url = add_query_arg( 'saved', 'true', $redirect_url );
@@ -1025,3 +1070,24 @@ function et_epanel_register_portability() {
 	) );
 }
 add_action( 'admin_init', 'et_epanel_register_portability' );
+
+/**
+ * Flush rewrite rules when a change in CPTs with builder enabled is detected.
+ *
+ * @since ??
+ *
+ * @param string $et_option_name
+ * @param mixed $et_option_new_value
+ */
+function et_epanel_flush_rewrite_rules_on_post_type_integration( $et_option_name, $et_option_new_value ) {
+    if ( 'et_pb_post_type_integration' !== $et_option_name ) {
+        return;
+    }
+
+    $old = et_get_option( $et_option_name, array() );
+
+    if ( $et_option_new_value !== $old ) {
+        flush_rewrite_rules();
+    }
+}
+add_action( 'et_epanel_update_option', 'et_epanel_flush_rewrite_rules_on_post_type_integration', 10, 2 );

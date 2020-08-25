@@ -51,6 +51,15 @@ class Css_Combinator extends Abstract_Combinator {
 	private static $instance;
 
 	/**
+	 * Excluded URLs.
+	 *
+	 * @since 5.6.3
+	 *
+	 * @var array Array of excldued urls.
+	 */
+	public $excluded_urls = array();
+
+	/**
 	 * The constructor.
 	 *
 	 * @since 5.5.2
@@ -149,6 +158,11 @@ class Css_Combinator extends Abstract_Combinator {
 				get_option( 'siteground_optimizer_combine_css_exclude', array() )
 			)
 		);
+
+		// Bail if there are no registered styles.
+		if ( empty( $wp_styles->registered ) ) {
+			return;
+		}
 
 		// Get handles of all registered styles.
 		$registered = array_keys( $wp_styles->registered );

@@ -208,6 +208,16 @@ Our plugin uses a cookie in order to function properly. It does not store person
 
 == Changelog ==
 
+= Version 5.6.5 =
+* Improved Elementor Pro 3.0 support
+
+= Version 5.6.4 =
+* Fix error in CSS Combinator
+
+= Version 5.6.3 =
+* Better WP 5.5 support
+* Improved log handling
+
 = Version 5.6.2 =
 * Improved JS Combination exclude list
 * Disable native WordPress lazyloading
