@@ -5,7 +5,7 @@
 Experienced and driven Content Designer and Junior Web Developer with skills in HTML, CSS, JavaScript, and Wordpress. I have provided award-winning web development for Rochdale Council and produced digital content while collaborating with award-winning artists at Gondwana Records. Years of experience in front-end development, eCommerce, user journeys, content design, server, and database setup, including working with various content management systems.
 
 ## Key Skills
-- HTML, CSS, JavaScript, Wordpress
+- HTML, CSS, JavaScript, Wordpress, ReactJS, Git
 - Content Design, Adobe Creative Suite, Microsoft Sharepoint
 - Video Editing, Graphic Design, Collaboration, User Journeys
 - Web Analytics, Responsive Design, Web Accessibility
